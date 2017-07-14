@@ -1,5 +1,5 @@
 /* config.h.  Generated from config.h.in by configure.  */
-/* config.h.in.  Generated from configure.in by autoheader.  */
+/* config.h.in.  Generated from configure.ac by autoheader.  */
 
 /* Define for debugging */
 /* #undef DEBUG */
@@ -20,7 +20,7 @@
 #define HAVE_MEMORY_H 1
 
 /* Define to 1 if you have a working `mmap' system call. */
-/* #undef HAVE_MMAP */
+#define HAVE_MMAP 1
 
 /* define to 1 if the compiler implements namespaces */
 #define HAVE_NAMESPACES 1
